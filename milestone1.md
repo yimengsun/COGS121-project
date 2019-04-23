@@ -24,7 +24,7 @@ StoryBoard 2:
 
 Paper Prototype 1:
 
-
+![Paper Prototype 1](https://raw.githubusercontent.com/yimengsun/COGS121-project/master/Prototype%201.jpg)
 
 Paper Prototype 2:
 
