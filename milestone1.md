@@ -17,7 +17,7 @@ Some possible resources that we can use our databases with crime statistics, sex
 
 StoryBoard 1:
 
-
+![StoryBoard 1](https://raw.githubusercontent.com/yimengsun/COGS121-project/master/Storyboard%201.JPG)
 
 StoryBoard 2:
 
