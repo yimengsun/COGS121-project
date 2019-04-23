@@ -20,7 +20,7 @@ StoryBoard 1:
 ![StoryBoard 1](https://raw.githubusercontent.com/yimengsun/COGS121-project/master/Storyboard%201.JPG)
 
 StoryBoard 2:
-
+![StoryBoard 2](https://raw.githubusercontent.com/yimengsun/COGS121-project/master/Storyboard%202.JPG)
 
 Paper Prototype 1:
 
