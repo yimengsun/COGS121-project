@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang='en-US'>
+<head>
+	<title>Family Friendly</title>
+	<link rel='stylesheet' type='text/css' href='./style.css'>
+	<link rel="shortcut icon" type="image/png" href="./favicon.png"/>
+	<script src='code.js'></script>
+</head>
+
+<body>
+	<h1 id='title'>Family Area Looker</h1>
+
+	<div class="row">
+		<div id="zip-search" class='column'>
+			<h2>Search for a zip code</h2>
+			<form id='zip-search-form' action='http://206.189.223.42/zip_search.php' method="GET">
+				<input name='zip-code' type='text'>
+				<input type='submit'>
+			</form>
+		</div>
+
+		<div id='param-search' class='column'>
+			<h2>Search for specific parameters</h2>
+			<button>Search!</button>
+		</div>
+	</div>
+
+	<br>
+	<br>
+
+	<div class="row">
+		<button>Login</button>
+	</div>
+	<div class="row">
+		<h3>Don't have an account? Register now</h3>
+	</div>
+</body>
+</html>
