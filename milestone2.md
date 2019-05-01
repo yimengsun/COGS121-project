@@ -4,7 +4,7 @@
 
 3. 
 ![ScreenShot 1](https://raw.githubusercontent.com/yimengsun/COGS121-project/master/ScreenShot%201%20.PNG)
-![ScreenShot 2](https://raw.githubusercontent.com/yimengsun/COGS121-project/master/Storyboard%201.JPG)
+![ScreenShot 2](https://raw.githubusercontent.com/yimengsun/COGS121-project/master/ScreenShot%202.PNG)
 milestone2.md contains screenshots of all your UI skeleton webpages embedded directly within the file (not linked as external image files).
 
 
