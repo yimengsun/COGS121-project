@@ -3,6 +3,8 @@
 2. We got good feedback about our milestone1, we were able to hit on a good idea. We have decided to stay with the same idea, and so our idea is very similar to what we proposed in milestone1.md
 
 3. 
+![ScreenShot 1](https://raw.githubusercontent.com/yimengsun/COGS121-project/master/Storyboard%201.JPG)
+![ScreenShot 2](https://raw.githubusercontent.com/yimengsun/COGS121-project/master/Storyboard%201.JPG)
 milestone2.md contains screenshots of all your UI skeleton webpages embedded directly within the file (not linked as external image files).
 
 
