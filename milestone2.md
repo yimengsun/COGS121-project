@@ -1,5 +1,8 @@
-milestone2.md contains a written explanation of how your idea is similar to or differs from what you proposed in milestone1.md for Milestone 1 (it's OK if you kept the same idea, just say that you kept it the same so we know; or if your TA suggested you change your idea, write how you did so)
+1. As you can see, milestone2.md is present in our project GitHub repository.
 
+2. We got good feedback about our milestone1, we were able to hit on a good idea. We have decided to stay with the same idea, and so our idea is very similar to what we proposed in milestone1.md
+
+3. 
 milestone2.md contains screenshots of all your UI skeleton webpages embedded directly within the file (not linked as external image files).
 
 
