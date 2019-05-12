@@ -9,14 +9,14 @@ milestone3 Submission
 
 5. We will explain to our TA what database or data API we chose, and why we chose it.
 
-6. We will successfully live demo at least one Ajax interaction where our TA can trigger some action on one of our webpages, it fetches some data from a backend database or external data API, and then displays that data directly on our webpage without reloading it. A simple text-based display is fine at this point. (2 points)
+6. We will successfully live demo at least one Ajax interaction where our TA can trigger some action on one of our webpages, it fetches some data from a backend database or external data API, and then displays that data directly on our webpage without reloading it. A simple text-based display is fine at this point. 
 
-7. Our database or external data API functionality is relevant to our project (in other words, it's not just directly copied from Professor Guo's example code without meaningful modifications).-------------------------------------------------------------------------------------
+7. Our database or external data API functionality is relevant to our project. We want to build a website for parents and expecting parents, so that they can find a good location to settle down and raise their children. We have datasets and databases that can tell us about the the traffic levels around the city area we are looking up in California. Other datasets tell us about the children in the area. Datasets show how they are healthy and in shape, and another dataset shows how well children in the area score in school. Both are important things to consider as a parents or expecting parents because the surrounding area and children that kids will grow up in will determine what they will become as young adult.
 
-8. You can confirm that your project is not simply using data from a text file (such as a .csv or .json file) or hard-coding objects into your JavaScript code.---------------------------------------------------------------
+8. We can confirm that our project is not simply using data from a text file (such as a .csv or .json file) or hard-coding objects into your JavaScript code. We have a real databases and get data based on locations we input.
 
-9. You can properly use the Network Inspector tab in your web browser's developer tools (e.g., Chrome, Safari, Firefox) to show your TA exactly what data is being passed between the frontend and backend (or external web API) during these Ajax interactions. (2 points)---------------------------------------------------------
+9. We can properly use the Network Inspector tab in our web browser's developer tools (e.g., Chrome, Safari, Firefox) to show our TA exactly what data is being passed between the frontend and backend (or external web API) during these Ajax interactions. 
 
-10. You can properly explain to your TA how your database or external data API interaction works in detail by walking through the code that you wrote for it, both in your frontend and backend. (3 points)--------------------------------------------------------------------
+10. We can properly explain to our TA how our database or external data API interaction works in detail by walking through the code that we wrote for it, both in our frontend and backend. 
 
-11. You tell your TA a plausible plan for how you are going to meaningfully display or visualize the data on the frontend for future milestones. You don't need to necessarily stick with this plan, but you must at least propose a plan.---------------------------------------
+11. We tell our TA a plausible plan for how we are going to meaningfully display or visualize the data on the frontend for future milestones. We will get all of the information that we have for our city or our area. Then we will devise a way to set up a score or a rating system with all of the information displayed clearly. We want to show that our area has a good rating in several aspects. We will let the parents see exactly what they are looking into so they can make a informed decision. Having a chart of the data in front of the user will be the best way to make them better.
