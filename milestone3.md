@@ -7,7 +7,7 @@ milestone3 Submission
   ![ScreenShot 6](https://raw.githubusercontent.com/yimengsun/COGS121-project/master/ScreenShot6%20.png)
   
   ![ScreenShot 7](https://raw.githubusercontent.com/yimengsun/COGS121-project/master/ScreenShot7.png)
-3. milestone3.md contains a written explanation of how your UI skeleton screenshots have improved upon the versions shown in milestone2.md in a noticeable way.
+3. milestone3.md contains a written explanation of how your UI skeleton screenshots have improved upon the versions shown in milestone2.md in a noticeable way. We added some color to the background and the tabs of our website. We did this so that our users can feel like blue is a non-threatening color. It is often gives off a feeling of safety and reliability. We want users to feel like they are safe with our website and can trust the results we give them. Also, we know that people are often stressed during finding a home or doing their research, and blue is connected with calmness and serenity, adding additional benefits. We used different variations of blue to accent different parts of the website, like the tabs, making sure the user can see important information, making our user interaction more intuitive.
 
 4.We will show our TA how our UI skeletons improved in a noticeable way from what we showed them during Milestone 2 grading session. (During our in-person grading session, we will show our milestone2.md to compare to your old screenshots.)
 
