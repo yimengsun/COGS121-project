@@ -2,7 +2,11 @@ milestone3 Submission
 1. milestone3.md is present in our project's GitHub repository.
 
 2. milestone3.md contains screenshots of your latest UI skeleton webpages embedded directly within the file.
--------------------------------------------------
+  ![ScreenShot 5](https://raw.githubusercontent.com/yimengsun/COGS121-project/master/ScreenShot5.png)
+  
+  ![ScreenShot 6](https://raw.githubusercontent.com/yimengsun/COGS121-project/master/ScreenShot6%20.png)
+  
+  ![ScreenShot 7](https://raw.githubusercontent.com/yimengsun/COGS121-project/master/ScreenShot7.png)
 3. milestone3.md contains a written explanation of how your UI skeleton screenshots have improved upon the versions shown in milestone2.md in a noticeable way.
 
 4.We will show our TA how our UI skeletons improved in a noticeable way from what we showed them during Milestone 2 grading session. (During our in-person grading session, we will show our milestone2.md to compare to your old screenshots.)
