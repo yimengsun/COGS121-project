@@ -1,10 +1,13 @@
 
 
 #title {
-	text-align: center;
+  text-align: center;
+  color:#0F5298;
+  font-family: Arial;
+  text-shadow: 5px 3px white;~
 }
 body {
-	background-color: #D5F3FE;
+  background-color: #D5F3FE;
 }
 
 .row {
@@ -13,18 +16,17 @@ body {
 }
 
 .column {
-	flex: 50%;
-	
+  flex: 50%;
+  
 }
 
 /* Style the tab */
 .tab {
-	align-items: center;
+  align-items: center;
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #66D3FA;
-  display: inline-block;
-  -webkit-box-pack:center;
+ 
   
 }
 
@@ -39,6 +41,8 @@ body {
   transition: 0.3s;
   font-size: 17px;
   color: #D5F3FE;
+
+
 }
 
 /* Change background color of buttons on hover */
@@ -61,5 +65,7 @@ body {
   color: #0F5298;
   background-color: #F5FBFE;
   vertical-align: center;
+  text-align:center;
   justify-content: center;
+  font-family: Arial;
 }
