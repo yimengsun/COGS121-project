@@ -1,6 +1,11 @@
 1. milestone4.md is present in our project's GitHub repository
 
 2. milestone4.md contains screenshots of our latest UI Webpages.
+  ![ScreenShot 8](https://raw.githubusercontent.com/yimengsun/COGS121-project/master/ScreenShot8.png)
+  
+  ![ScreenShot 9](https://raw.githubusercontent.com/yimengsun/COGS121-project/master/ScreenShot9%20.png)
+  
+  ![ScreenShot 10](https://raw.githubusercontent.com/yimengsun/COGS121-project/master/ScreenShot10.png)
 
 3. milestone4.md explains how our UI's screenshots hae improved upon our milestone3.md versions in a noticeable way. Our milestone3's UI had changes to color, but it was missing the formatting and style that a more polished website has. Our milestone3's website looked unfinished because it was very basic. We added a lot of formatting and style to our webpages, giving them a more finished look. We were able to make the functionality more apparent, making our UI simpler and more efficient.
 
