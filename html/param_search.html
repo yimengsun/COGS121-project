@@ -2,24 +2,40 @@
 
 <html lang='en-US'>
 <head>
-	<link rel='stylesheet' type='text/css' href='./style.css'>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src='./code.js'></script>
-	
+
+	<link rel='stylesheet' type='text/css' href='./style.css'>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 </head>
+
 <body>
+	
+	<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-info border-bottom box-shadow">
+      <h2 class="my-0 mr-md-auto font-weight-normal">Family Friendly</h2>
+
+      <nav class="my-2 my-md-0 mr-md-3">
+        <a class="p-2 text-dark" href="./login.html">Login</a>
+      </nav>
+      <a class="btn btn-outline-dark" href="./register.html">Sign up</a>
+    </div>
+
 	<h1 id='title'><a href='./index.html'>Family Area Looker</a></h1>
-	<h1 id='title'>Search for: </h1>
+	<h2 id='title'>Search for: </h2>
 	<div class="tab">
 	  <button class="tablinks" onclick="openTab(event, 'Filters')" id='defaultOpen'>Filters</button>
 	</div>
 
 	<div id="Filters" class="tabcontent">
-	<form>
-	  <h3>Budget: <input type='text'></h3>
+	<form id='specified-search-form' action='http://206.189.223.42/city_results.php?zip_code=92037' method="GET">
+	  <h3>Budget: <input class='search' type='text'></h3>
+		<br>
 	  <h3>Schools: </h3>
 		<input type='radio' name='schools' value='private'>Private
 		<input type='radio' name='schools' value='public'>Public
+		<br>
+		<br>
 	  <h3>Amenities: </h3>
 		<input type='checkbox' name='amenities1' value='hospital'>Hospital
 		<input type='checkbox' name='amenities2' value='police'>Police
@@ -29,7 +45,7 @@
 		<input type='checkbox' name='amenities6' value='gym'>Gym
 	  <br>
 	  <br>
-	  <button><a href='http://206.189.223.42/zip_results.php?zip_code=92037'>Submit!</a></button>
+	  <button class='butts'>Submit!</button>
 	</form>
 	</div>
 
