@@ -1,26 +1,38 @@
+
+
 #title {
-	text-align: center;
+  text-align: center;
+  color:#0F5298;
+  font-family: Arial;
+  text-shadow: 5px 3px white;~
+}
+body {
+  background-color: #D5F3FE;
 }
 
 .row {
   display: flex;
-  justify-content: center;
+
 }
 
 .column {
-	flex: 50%;
+  flex: 50%;
+  
 }
 
 /* Style the tab */
 .tab {
+  align-items: center;
   overflow: hidden;
   border: 1px solid #ccc;
-  background-color: #f1f1f1;
+  background-color: #66D3FA;
+ 
+  
 }
 
 /* Style the buttons inside the tab */
 .tab button {
-  background-color: inherit;
+  background-color: #2565AE;
   float: left;
   border: none;
   outline: none;
@@ -28,16 +40,20 @@
   padding: 14px 16px;
   transition: 0.3s;
   font-size: 17px;
+  color: #D5F3FE;
+
+
 }
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #ddd;
+  background-color: #3C99DC;
+
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: #ccc;
+  background-color: #3C99DC;
 }
 
 /* Style the tab content */
@@ -46,4 +62,10 @@
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
+  color: #0F5298;
+  background-color: #F5FBFE;
+  vertical-align: center;
+  text-align:center;
+  justify-content: center;
+  font-family: Arial;
 }

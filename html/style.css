@@ -2,6 +2,7 @@
 
 #title {
   text-align: center;
+<<<<<<< HEAD
   font-family: Arial;
   color:rgb(0, 0, 0);
 }
@@ -45,14 +46,27 @@ body {
 
 #navbar {
   color: rgb(0, 107, 194);
+=======
+  color:#0F5298;
+  font-family: Arial;
+  text-shadow: 5px 3px white;~
+}
+body {
+  background-color: #D5F3FE;
+>>>>>>> 2491e3aab6a55fde698dbbb1b1b45dd3f03b821b
 }
 
 .row {
   display: flex;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2491e3aab6a55fde698dbbb1b1b45dd3f03b821b
 }
 
 .column {
   flex: 50%;
+<<<<<<< HEAD
   text-align: center;
 }
 
@@ -68,6 +82,9 @@ body {
   font-size: 16px;
   font-family: Arial;
   margin: 4px 2px;
+=======
+  
+>>>>>>> 2491e3aab6a55fde698dbbb1b1b45dd3f03b821b
 }
 
 .search {
@@ -81,13 +98,24 @@ body {
 .tab {
   align-items: center;
   overflow: hidden;
+<<<<<<< HEAD
   border: 1px solid rgb(255, 255, 255);
   background-color: rgb(255, 255, 255);
+=======
+  border: 1px solid #ccc;
+  background-color: #66D3FA;
+ 
+  
+>>>>>>> 2491e3aab6a55fde698dbbb1b1b45dd3f03b821b
 }
 
 /* Style the buttons inside the tab */
 .tab button {
+<<<<<<< HEAD
   background-color: rgb(255, 255, 255);
+=======
+  background-color: #2565AE;
+>>>>>>> 2491e3aab6a55fde698dbbb1b1b45dd3f03b821b
   float: left;
   border: none;
   outline: none;
@@ -96,17 +124,30 @@ body {
   transition: 0.3s;
   font-size: 17px;
   color: #D5F3FE;
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 2491e3aab6a55fde698dbbb1b1b45dd3f03b821b
 }
 
 /* Change background color of buttons on hover */
 .tab button:hover {
+<<<<<<< HEAD
   background-color: rgb(255, 255, 255);
+=======
+  background-color: #3C99DC;
+>>>>>>> 2491e3aab6a55fde698dbbb1b1b45dd3f03b821b
 
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
+<<<<<<< HEAD
   background-color: rgb(255, 255, 255);
+=======
+  background-color: #3C99DC;
+>>>>>>> 2491e3aab6a55fde698dbbb1b1b45dd3f03b821b
 }
 
 /* Style the tab content */
@@ -115,8 +156,13 @@ body {
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
+<<<<<<< HEAD
   color: rgb(0, 0, 0);
   background-color: rgb(255, 255, 255);
+=======
+  color: #0F5298;
+  background-color: #F5FBFE;
+>>>>>>> 2491e3aab6a55fde698dbbb1b1b45dd3f03b821b
   vertical-align: center;
   text-align:center;
   justify-content: center;
