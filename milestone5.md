@@ -7,7 +7,7 @@ Our target users are individuals that are ready to settle down and raise a famil
 
   ![ScreenShot 11](https://raw.githubusercontent.com/yimengsun/COGS121-project/master/ScreenShot11.png)
   
-  ![ScreenShot 12]https://raw.githubusercontent.com/yimengsun/COGS121-project/master/ScreenShot12.PNG)
+  ![ScreenShot 12](https://raw.githubusercontent.com/yimengsun/COGS121-project/master/ScreenShot12.PNG)
   
 4. milestone5.md contains a written explanation of how your UI's screenshots have improved upon the versions shown in milestone4.md.
 
