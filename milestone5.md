@@ -11,7 +11,9 @@ Our target users are individuals that are ready to settle down and raise a famil
   
 4. milestone5.md contains a written explanation of how your UI's screenshots have improved upon the versions shown in milestone4.md.
 
-Our UI has improved from milestone4 to milestone5, we added color to our tabs so that they are not transparent and we have changed the way our data is visualized. We would put the information for each city in more manageable pieces so that our users will be able to better utilize the information that we were given. Better and more constantly organized information across multiple cuties will allow our users to see how the city they are researching stacks up against other cities they are looking to settle down in.
+Our UI has improved from milestone4 to milestone5, we added color to our tabs so that they are not transparent we have separated what we are trying to show the User so that they are not overwhelmed by the amount of information we can give them. While we give them a lot of information, we want to give them the information that they need in steps so that they can start to understand what is being shown to them.
+
+We would put the information for each city in more manageable pieces so that our users will be able to better utilize the information that we were given. Better and more constantly organized information across multiple cuties will allow our users to see how the city they are researching stacks up against other cities they are looking to settle down in.
 
 5. milestone5.md contains screenshots of how your data is displayed or visualized within your app. Include these as separate screenshots in addition to the general UI screenshots in rubric item 2. (You don't need a fancy visualization, but your data needs to be shown in a way that makes sense for your app.)
 
@@ -22,6 +24,12 @@ Our UI has improved from milestone4 to milestone5, we added color to our tabs so
   ![ScreenShot 15](https://raw.githubusercontent.com/yimengsun/COGS121-project/master/ScreenShot15.PNG)
 
 6. milestone5.md contains a written explanation of how you implemented your data display or visualizations, such as which libraries/frameworks you used (if any), how you hooked up to data APIs or databases, etc. (Again, you don't need a fancy visualization, but your data needs to be shown in a way that makes sense for your app.) (2 points)
+
+We really upgraded our Data Display and visualization. We added graphs and charts and maps to help our Users really understand exactly what the information is saying about the current city that they have searched up. We used ChatJS to configure some of our graphs so that we could see exactly what the data is saying. We were able to show the city the user searched up on a map so that they can know how close the city they searched up to different cities.
+
+We also put the demographics into a pie chart so we can see the ethnic distribution of the inhabitants. Perhaps a User would prefer a city that has more  inhabitants that share their own background and culture. We chose a pie chart to show how much of a percentage each ethinicity has out of the whole pie. It will help to visualize the magnitude of each piece of the pie.
+
+We decided to use a bar graph to visualize the number of students in a city because we felt that it was a better representation of the numbers than a pie chart. We felt like the numbers would be relatively even so we needed to show the user how each school level compared to the others. A user can see how there are more high school students and college students, or if there are more pre-school and elementary school kids.
 
 7.milestone5.md contains a paragraph describing some more ambitious data display or visualization ideas beyond what you've implemented that would make your app more polished. Note that you do NOT need to implement those ideas, so feel free to be more creative here.
 
