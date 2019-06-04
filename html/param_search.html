@@ -1,5 +1,7 @@
 <!DOCTYPE html>
+<!--
 
+ -->
 <html lang='en-US'>
 <head>
 	<title>Parameter Search</title>
@@ -14,27 +16,21 @@
 <body>
 	
 	<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-info border-bottom box-shadow">
-      <h2 class="my-0 mr-md-auto font-weight-normal">Family Friendly</h2>
+      <h2 class="my-0 mr-md-auto font-weight-normal"><a href='./index.html'>Family Friendly</a></h2>
 
-      <nav class="my-2 my-md-0 mr-md-3">
-        <a class="p-2 text-dark" href="./login.html">Login</a>
-      </nav>
-      <a class="btn btn-outline-dark" href="./register.html">Sign up</a>
-    </div>
+      <a class="btn btn-outline-dark" href="./about.html">About</a>
+  </div>
 
-	<h1 id='title'><a href='./index.html'><img src='./pics/logo.png' width='25%'></a></h1>
-	<h2 id='title'>Search for: </h2>
+	<h2 id='title'>Search for Cities with: </h2>
 	<div class="tab">
 	  <button class="tablinks" onclick="openTab(event, 'Filters')" id='defaultOpen'>Filters</button>
 	</div>
 
 	<div id="Filters" class="tabcontent">
 	<form id='specified-search-form' action='http://206.189.223.42/param_results.php' method="POST">
-	  <h3>Desired Monthly Rent: <input name='budget' class='search' type='text'></h3>
-		<br>
-	  <h3>Desired work hours: <input name='work_hours' class='search' type=text'></h3>
-	  <h3>Schools: </h3>
-		Desired Student Population in 
+	  <h3>Average monthly rent for a 2 Bedroom Home: <input name='budget' class='search' type='text'></h3>
+	  <h3>Maximum work hours a week you'd like to work: <input name='work_hours' class='search' type=text'></h3>
+	  <h3>Average Student Population in 
 			<select name='school_type'>
 				<option value='preschool'>Preschool</option>
 				<option value='kindergarten'>Kindergarten</option>
@@ -44,7 +40,7 @@
 				<option value='college'>College</option>
 				<option value='graduates'>Graduates</option>
 			</select>: 
-		<input class='search' type='input' name='schools'>
+		<input class='search' type='input' name='schools'></h3>
 		<br>
 		<br>
 	  <br>
