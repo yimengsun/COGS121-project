@@ -20,9 +20,12 @@ Pitched initial idea for project
 
 Ignacio Becerra:
 Full stack development
-Put things together so that they worked and came up with the designs and initial looks of the application.
-Found ways to tie multiple APIs that could work well together so that the app was functional
-Set up the website server things, so that we could develop together
+Set up DigitalOcean Droplet instance to create a web server for development, adding user accounts for each team member and updating permissions.
+Came up with the designs and initial looks of the application.
+Installed MySQL and set up data tables to work with data.
+Found multiple APIs that could work well together to retrieve important data for the project; read documentation for Census API and Weather API to make data query work.
+Wrote JavaScript and PHP code to manage requests and responses from the different API calls and MySQL queries.
+
 
 Sun Yimeng:
 Front End Development
