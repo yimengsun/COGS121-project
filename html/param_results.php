@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 
+/* This search page got the budget and work hours and school types and */ 
+/*the population of each school and gave us a list of cities from the */ 
+/*census api and gave us different cities to look to. We had it so that*/ 
+/*each city name that was displayed would be a link that would take us to*/ 
+/* the city_results.php file given that city name.*/
+
 <html lang='en-US'>
 <head>
 	<title>Parameter Search</title>
