@@ -1,5 +1,7 @@
 <?php
-include 'server_connect.php';
+
+  /* Check if we have enough data for inputted city, if not redirect */
+  include 'server_connect.php';
   $city = $_GET['city'];
 
   $sql = "select place_code from CityCodes where city_name like '$city%' and level=162 limit 1;";

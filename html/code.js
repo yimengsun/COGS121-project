@@ -1,3 +1,20 @@
+/**
+
+  code.js is the javascript file that contains all the functions that are
+  being used in our Family-Friendly website. All the functions send ajax
+  request to either online API urls or php files that deal with data
+  and database insertion/query.
+
+  Graphs are also generated in this file in the success function of some
+  of the ajax call. 
+
+*/
+
+
+
+/**
+  Displays the tab contents of clicked tab.
+*/
 function openTab(evt, TabName) {
   
   var i, tabcontent, tablinks;
@@ -12,6 +29,7 @@ function openTab(evt, TabName) {
   document.getElementById(TabName).style.display = "block";
   evt.currentTarget.className += " active";
 
+  // run specific function depending on tab name
   switch(TabName) {
     case 'map':
 	mapSearch(TabName);
@@ -29,8 +47,13 @@ function openTab(evt, TabName) {
   }
 }
 
+
+/**
+  Displays map of specific city.
+*/
 function mapSearch(TabName) {
 
+  // retrieve GET parameters
   let searchParams = new URLSearchParams(window.location.search);
   var city = searchParams.get("city");
 
@@ -40,6 +63,7 @@ function mapSearch(TabName) {
   	return;
   }
 
+  // Concatenate map API url with city name, and send request
   let url1 = 'https://api.opencagedata.com/geocode/v1/json?key=c0ebee32124d4539819e635172ef215f&q=';
   let location = city;
   location.replace(' ', '%20');
@@ -48,7 +72,9 @@ function mapSearch(TabName) {
   const Http = new XMLHttpRequest();
   Http.open("GET", url);
   Http.send();
+  
 
+  // Display the map that was requested
   Http.onreadystatechange = async function(){
   	if (this.readyState == 4 && this.status == 200) {
           myObj = JSON.parse(this.responseText);
@@ -69,12 +95,20 @@ function mapSearch(TabName) {
 
 }
 
+
+/**
+  Retrieve demographic census data and create graphics.
+*/
 function demoSearch(TabName) {
+
+  // Retrieve get parameters
   let searchParams = new URLSearchParams(window.location.search);
   var city = searchParams.get("city");
 
   var tab = $("#" + TabName);
   tab.empty();
+
+  // send ajax request to a php file that retrieves demographic data
   $.ajax({
     type: "GET",
     url: "http://206.189.223.42/getDemo.php",
@@ -84,6 +118,7 @@ function demoSearch(TabName) {
 	canvas.id = 'myChart';
 	tab.append(canvas);
 
+	// Create pie chart with population data
 	let total = data.population;
 	var ctx = document.getElementById('myChart').getContext('2d');
 	var chart = new Chart(document.getElementById("myChart"), {
@@ -103,6 +138,8 @@ function demoSearch(TabName) {
       }
     }
 });
+	
+	// Print the data retrieved from the Census API
         tab.append("<h4>Total Population: " + data.population + "</h4>");
 	tab.append("<h4>White: " + percent(data.white,total)+ "%</h4>");
 	tab.append("<h4>African Americans: " + percent(data.african_american,total) + "%</h4>");
@@ -127,10 +164,15 @@ function demoSearch(TabName) {
 
 }
 
+
+/**
+  Display the school demograpic data with graphs.
+*/
 function schoolSearch(TabName){
   let searchParams = new URLSearchParams(window.location.search);
   var city = searchParams.get("city");
 
+  // Send a request that retrieves school info
   $.ajax({
     type: "GET",
     url: "http://206.189.223.42/getSchools.php",
@@ -141,6 +183,7 @@ function schoolSearch(TabName){
         canvas.id = 'myChart';
         tab.append(canvas);
 
+	// Create bar chart displaying grade information
         let total = data.population;
         var ctx = document.getElementById('myChart').getContext('2d');
 	let chart = new Chart(document.getElementById("myChart"), {
@@ -162,6 +205,7 @@ function schoolSearch(TabName){
     		}
 	});
 
+	// Print total student population per grades
 	tab.append("<h4>Total Population Under 18: " + data.total_children + "</h4>");
 	tab.append("<h4>Total Enrolled: " + data.total_enrolled + "</h4>");
 	tab.append("<h4>Preschool: " + data.preschool + "</h4>");
@@ -177,44 +221,12 @@ function schoolSearch(TabName){
     },
     dataType: "json"
   });
-/*
-  $.ajax({
-    type: "POST",
-    url: "http://206.189.223.42/getData.php",
-    data: {type: TabName, city: city},
-    success: function(data) {
-        console.log(data);
-	
-	var tab = $("#" + TabName);
-	tab.empty();
-	tab.append("<br>");
-
-	data.forEach(function(object, i) {
-
-		if(i == 1) {
-			var t = document.createElement('tr');
-		        t.innerHTML = "<td>District</td>"+
-        	           "<td>Test Score</td>"+
-                	   "<td>Average District Income</td>"+
-	                   "<td>Reading Score</td>"+
-        	           "<td>Math Score</td>";
-			tab.append(t);
-
-		}
-                var tr = document.createElement('tr');
-                tr.innerHTML = '<td>' + object.district + '</td>' +
-                '<td>' + object.testscr + '</td>' +
-                '<td>' + object.avginc + '</td>' +
-                '<td>' + object.readscr + '</td>' + 
-		'<td>' + object.mathscr + '</td>';
-                tab.append(tr);
-            });
-
-    },
-    dataType: "json"
-  });*/
 }
 
+
+/**
+  Print out weather data
+*/
 function weatherSearch(TabName) {
   let searchParams = new URLSearchParams(window.location.search);
   var city = searchParams.get("city");
@@ -222,6 +234,8 @@ function weatherSearch(TabName) {
   var tab = $("#" + TabName);
   tab.empty();
   
+
+  // Send ajax request to API that returns weather per city.
   $.ajax({
 	type: 'GET',
 	url: 'http://api.openweathermap.org/data/2.5/weather', 
@@ -229,6 +243,8 @@ function weatherSearch(TabName) {
 	success: function(data) {
         	var tab = $("#" + TabName);
 		console.log(data);
+		
+		// Print weather data retrieved
 		tab.append("<h4>Current Weather Description: " + data.weather[0].description + "</h4>");
 		tab.append("<h4>Current Humidity: " + data.main.humidity + "%</h4>");
 		tab.append("<h4>Current Temperature: " + data.main.temp + "&deg;F</h4>");
@@ -239,6 +255,10 @@ function weatherSearch(TabName) {
   });
   
 }
+
+/**
+  Helper function that returns percentages.
+*/
 function percent(n, total) {
   return ((n/total)*100).toFixed(2);
 }
